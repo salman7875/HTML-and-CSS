@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Hero Section</title>
+  <style>
+    :root {
+      --green: #087f5b;
+      --grey: #343a40;
+      --light-grey: #8e8c8c;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--grey);
+      line-height: 1;
+    }
+
+    .container {
+      margin: 0 auto;
+      width: 1200px;
+    }
+
+    header {
+      height: 100vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 89, 122, 0.6)), url(hero.jpg);
+      background-size: cover;
+      position: relative;
+    }
+
+    nav {
+      font-weight: 700;
+      font-size: 28px;
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+      padding-top: 32px;
+    }
+
+    .header-container {
+      width: 1200px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /* text-align: center; */
+    }
+
+    .header-container-inner {
+      width: 50%;
+    }
+
+    h1 {
+      font-size: 52px;
+      margin-bottom: 32px;
+      color: #fff;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 48px;
+      color: #fff;
+    }
+
+    .btn:link,
+    .btn:visited {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      background-color: #e67e23;
+      display: inline-block;
+      padding: 16px 32px;
+      border-radius: 5px;
+    }
+
+    h2 {
+      font-size: 44px;
+      margin-bottom: 48px;
+    }
+
+    section {
+      padding: 96px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <div>LOGO</div>
+      <div>Navigation</div>
+    </nav>
+
+    <div class="header-container container">
+      <div class="header-container-inner">
+        <h1>A healthy meal delivered to your door, every single day</h1>
+        <p>
+          The smart 365-day-per-year food subscription that will make you eat healty again. Tailored to your personal
+          tastes and nutritional needs
+        </p>
+        <a href="#" class="btn">Start eating well</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2>Some random heading</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reprehenderit, dolorem quos, sint consequatur,
+        perferendis harum culpa maiores officia laudantium voluptates iste architecto aliquam quia repudiandae vel
+        magnam eligendi. Illo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eum architecto sed
+        impedit velit id deserunt accusantium nemo vitae optio assumenda, itaque dolores, temporibus eligendi
+        voluptatem. Eligendi at maxime consequuntur!</p>
+    </div>
+  </section>
+</body>
+
+</html>
